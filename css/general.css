@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Knewave&family=Notable&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Knewave&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Notable&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #292929;
+    margin: 0px 0x 0px 0px;
+    width: 100%;
+    border-top: solid #1F1F1F;
+    border-bottom: solid #1F1F1F;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#navLogo {
+    width: 50px;
+    height: auto;
+}
+
+a {
+    align-content: center;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: x-large;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgb(0, 194, 194);
+    margin: 5px 0px 5px 0px;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border: solid #000000 3px;
+    padding: 5px;
+}
+
+a:hover {
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+    background-color: rgb(1, 124, 124);
+    border: inset #ed5d09;
+}
+
+#homebutton {
+    font-family: Signika;
+    background-color: #02a702;
+}
+
+#homebutton:hover {
+    background-color: #006e00;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: #292929;
+    justify-content: center;
+    border-top: solid #1F1F1F;
+    border-bottom: solid #1F1F1F;
+}
+
+.footercw {
+    font-family: "Merriweather";
+    color: white;
+    font-style: oblique;
+    text-align: center;
+}
+
+#h1Home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    color: rgb(0, 194, 194);
+    border-bottom: solid rgb(197, 95, 0) 2px;
+    margin: 0% 15% 5% 15%;
+    padding-bottom: 10px;
+}
+
+#h1Children {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    color: rgb(0, 194, 194);
+    border-bottom: solid rgb(197, 95, 0) 2px;
+    margin: 5% 15% 5% 15%;
+    padding-bottom: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    color: rgb(0, 194, 194);
+    border-top: solid rgb(197, 95, 0) 2px;
+    margin: 5% 15% 5% 15%;
+    padding-top: 25px;
+}
+
+h3 {
+    display: grid;
+    grid-template-columns: 2;
+    font-family: "Roboto";
+    color: #02a702;
+    
+}
+
+ul {
+    display: flex;
+    list-style-position: inside;;
+    justify-self: center;
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: large;
+    color: rgb(0, 194, 194);
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li::marker {
+    color: purple;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(41, 41, 41);
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    border: solid purple 2px;
+    border-style: ridge;
+    gap: 30px;
+}
+
+.experience-grid > div {
+    color: rgb(0, 194, 194);
+    text-align: center;
+    font-family: "Roboto";
+    justify-self: space-between;
+    align-content: center;
+    padding: 5px;
+}
+
+
+#pageTextMain {
+    text-align: left;
+    font-family: "Roboto";
+    font-size: x-large;
+    color: #02a702;
+    margin: 0% 5% 5% 5%;
+}
+
+#pageTextAbout {
+    text-align: left;
+    font-family: "Roboto";
+    font-size: x-large;
+    color: #02a702;
+    margin: 0% 5% 10% 5%;
+}
+
+
+#bannerlogo {
+    display: flex;
+    justify-self: center;
+    width: 40%;
+    height: auto;
+}
+
+table {
+    display: flex;
+    justify-self: center;
+    font-family: "Roboto";
+    font-size: larger;
+    border-collapse: collapse;
+}
+
+th {
+    color: rgb(0, 194, 194);
+    text-align: center;
+    padding: 20px 35px 20px 35px;
+    border: solid #ed5d09 1px;
+}
+
+td {
+    color: #02a702;
+    text-align: center;
+    padding: 20px 35px 20px 35px;
+    border: solid #ed5d09 1px;
+
+}
+
+a.tableLinks {
+    all: revert;
+    color: #02a702;
+    background-color: #1a1a1a;
+    font-family: "Roboto";
+    border: solid rgb(71, 71, 71) 1px;
+    padding: 5px 10px 5px 10px;
+}
+
+a.tableLinks:hover {
+    color: purple;
+    background-color: #02a702;
+}
+
+/* ---------- */
+/* 404 stuff */
+/* -------- */
+
+#fox404 {
+    display: flex;
+    justify-self: center;
+    margin-top: 10px;
+    border-top: #1F1F1F;
+    width: 40%;
+    height: auto;
+}
+
+#h1404 {
+    display: flex;
+    justify-self: center;
+    color: rgb(0, 194, 194);
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#homebutton404 {
+    display: flex;
+    justify-content: center;
+}
+
+a#home404button {
+    background-color: #02a702;
+}
+
+a#home404button:hover {
+    background-color: #006e00;
+}
+
+/* -------------- */
+/* Media Queries */
+/* ------------ */
+
+@media screen and (max-width: 750px) {
+
+    a {
+        font-size: 12px;
+    }
+
+    a:hover {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .experience-grid {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 325px) {
+
+    .ascii-banner {
+        font-size: 4px;
+    }
+
+}
