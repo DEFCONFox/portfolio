@@ -223,6 +223,11 @@ a.tableLinks:hover {
     background-color: #02a702;
 }
 
+#contactEmail {
+    color: #02a702;
+    font-weight: normal;
+}
+
 /* ---------- */
 /* 404 stuff */
 /* -------- */
@@ -281,6 +286,22 @@ a#home404button:hover {
         margin-left: 25px;
         margin-right: 25px;
     }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    #contactInfoTableSingle {
+        display: none;
+   }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #contactInfoTableDouble {
+        display: none;
+   }
 
 }
 
