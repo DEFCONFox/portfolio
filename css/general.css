@@ -274,10 +274,6 @@ a#home404button:hover {
         font-size: 12px;
     }
 
-    a:hover {
-        font-size: 12px;
-    }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -302,6 +298,10 @@ a#home404button:hover {
     #contactInfoTableDouble {
         display: none;
    }
+
+    a.tableLinks {
+        font-weight: normal;
+    }
 
 }
 
