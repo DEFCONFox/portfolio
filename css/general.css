@@ -278,7 +278,17 @@ a#home404button:hover {
 
     .experience-grid {
         margin-left: 20vw;
-        margin-right: 20vw
+        margin-right: 20vw;
+    }
+
+    #pageTextMain {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    #pageTextAbout {
+        margin-left: 20vw;
+        margin-right: 20vw;
     }
     
 }
