@@ -148,8 +148,7 @@ li::marker {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 25px;
-    border: solid purple 10px;
-    border-style: ridge;
+    border: solid purple 1px;
     column-gap: 10px;
 }
 
@@ -274,6 +273,15 @@ a#home404button:hover {
 /* -------------- */
 /* Media Queries */
 /* ------------ */
+
+@media screen and (min-width: 1075px) {
+
+    .experience-grid {
+        margin-left: 20vw;
+        margin-right: 20vw
+    }
+    
+}
 
 @media screen and (max-width: 750px) {
 
