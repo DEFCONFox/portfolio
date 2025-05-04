@@ -112,6 +112,74 @@ h2 {
     padding-top: 25px;
 }
 
+#projectLogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    border: #1F1F1F solid 5px;
+    background-color: #292929;
+    border-radius: 5ch;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#projectLogTitle {
+    all: revert;
+    color: rgb(0, 194, 194);
+    font-family: "Roboto";
+    text-align: center;
+    border-bottom: solid 2px rgb(197, 95, 0);
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+#projectLogText {
+    color: #02a702;
+    font-family: "Roboto";
+    font-size: medium;
+    text-align: center;
+}
+
+#projectLogContent {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+    border: #1F1F1F solid 5px;
+    background-color: #292929;
+    border-radius: 5%;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#projectLogContentH3 {
+    margin: 0;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: rgb(0, 194, 194);
+}
+
+#projectLogContentText {
+    color: #02a702;
+    font-family: "Roboto";
+    align-self: center;
+    padding: 8px;
+    text-align: left;
+}
+
+#DEFCONFoxLink {
+    all: revert;
+    font-family: "Roboto";
+    color: rgb(197, 95, 0);
+    
+}
+
+#DEFCONFoxLink:hover {
+    color: rgb(0, 194, 194)
+}
+
 h3 {
     display: grid;
     grid-template-columns: 2;
@@ -121,7 +189,7 @@ h3 {
 
 ul {
     display: flex;
-    list-style-position: inside;;
+    list-style-position: inside;
     justify-self: center;
     flex-direction: column;
     font-family: "Roboto";
@@ -301,11 +369,35 @@ a#home404button:hover {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 629px) {
+    
+    #projectLogContent {
+        width: 300px;
+        border-radius: 5ch;
+    }
+
+    #projectLogContainer {
+        justify-self: center;
+        width: 200px;
+        margin-left: 0;
+    }
 
     .experience-grid {
         margin-left: 25px;
         margin-right: 25px;
+    }
+
+}
+
+@media screen and (min-width: 630px) {
+
+    #projectLogContainer {
+        width: 400px;
+        font-size: larger;
+    }
+
+    #projectLogText {
+        font-size: large;
     }
 
 }
