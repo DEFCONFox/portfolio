@@ -302,42 +302,6 @@ a.tableLinks:hover {
     font-weight: normal;
 }
 
-/* ---------- */
-/* 404 stuff */
-/* -------- */
-
-#fox404 {
-    display: flex;
-    justify-self: center;
-    margin-top: 10px;
-    border-top: #1F1F1F;
-    width: 40%;
-    height: auto;
-}
-
-#h1404 {
-    display: flex;
-    justify-self: center;
-    color: rgb(0, 194, 194);
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    text-align: center;
-}
-
-#homebutton404 {
-    display: flex;
-    justify-content: center;
-}
-
-a#home404button {
-    background-color: #02a702;
-}
-
-a#home404button:hover {
-    background-color: #006e00;
-}
-
 /* -------------- */
 /* Media Queries */
 /* ------------ */
